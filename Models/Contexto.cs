@@ -11,6 +11,6 @@ namespace WebApplication1.Models
         public Contexto(DbContextOptions<Contexto> options) : base(options) { }
         public DbSet<Vendas> Vendas { get; set; }
         public DbSet<Produtos> Produtos { get; set; }
-        public DbSet<Funcionario> Funcionario { get; set; }
+        public DbSet<Funcionario> Funcionario { get; set; } 
     }
 }
